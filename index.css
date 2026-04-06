@@ -1,0 +1,763 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: "alice";
+    src: url(asset/fonts/ClashDisplay-Regular.otf);
+}
+@font-face {
+    font-family: "alice-v";
+    src: url(asset/fonts/ClashDisplay-Variable.ttf);
+}
+@font-face {
+    font-family:"grotex" ;
+    src: url(asset/fonts/ClashGrotesk-Regular.otf);
+}
+@font-face {
+    font-family:"alter" ;
+    src: url(asset/fonts/Arlita.otf);
+}
+.header {
+   background-color: var(--black);
+   
+}
+:root{
+    --whait:#fff;
+    --black:#000;
+    --fad:#00000000;
+    --gold:#DDCA67;
+    --gold-darker:#706636;
+    --light-black:#2B2B2B;
+    --darek-gold:#161409;
+    --grasse-dark-green:#080806;
+    --sea-grass-black:#090B06;
+}
+.container-fluid{
+    max-width: 2020px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+.nave_link_hadding{
+    display: block;
+     font-size: 20px;
+     color:var(--whait);
+     font-family:alice-v;
+     border-top: 2px solid var(--fad);
+     transition: all 1s;
+}
+.nave_link_hadding:hover{
+   border-bottom: 2px solid var(--gold);
+   color: var(--gold);
+   
+}
+.container{
+    max-width: 1550px;
+}
+.hadding_hero_section{
+    font-family: alter;
+    text-transform: capitalize;
+    font-size: 70px;
+    max-width: 828px;
+    padding-bottom: 28px;
+    color: var(--whait);
+
+}
+.hero_commant{
+    font-family: grotex;
+    font-size: 18px;
+   max-width: 661px;
+   color: var(--whait);
+   text-transform: capitalize;
+   padding-bottom: 55px;
+}
+.hero_btn{
+    padding: 20px 30px;
+    border: 2px solid var(--whait);
+    background: var(--black);
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: alter;
+    color: var(--gold);
+    text-transform: capitalize;
+    
+}
+.hero{
+    background: url(asset/img/hero.png) no-repeat var(--black);
+}
+.brand_name{
+    max-width: 112px;
+    
+}
+.lyer2{
+    background: url(asset/img/lyer2.png) fixed center var(--black) cross-fade();
+    
+}
+.hadding_icon{
+        text-align: center;
+       font-size: 25px;
+       text-transform: capitalize;
+       border-top:2px solid var(--gold)  ;
+       border-bottom: 2px solid var(--gold) ;
+       max-width:300px;
+       margin: 0 auto;
+       padding: 19px 40px;
+       border-radius: 10px;
+       font-family:grotex ;
+       color: var(--whait);
+       box-shadow: 0px 0px 0px 0px var(--gold);
+       transition: all 0.8s;
+       
+}
+.hadding_icon:hover{
+   box-shadow: 0px 0px 10px 1px var(--gold-darker);
+}
+.hadding_video{
+     max-width: 901px;
+     margin: 0 auto;
+     font-size: 60px;
+     text-align: center;
+     font-family: alter;
+     text-transform: capitalize;
+     color: var(--whait);
+    padding-bottom: 109px;
+    padding-top: 65px;
+}
+.royal{
+  color: var(--gold);
+}
+.video{
+    padding-top: 151px;
+    padding-bottom: 159px;
+    background: var(--black);
+}
+.video_img{
+    padding: 23px;
+    background-color: var();
+    max-width: 1153px;
+    border-right: 2px solid var(--gold);
+    border-left: 2px solid var(--gold);
+    background-color: var(--light-black);
+    border-radius: 50px;
+
+
+}
+.booking{
+    background: var(--black);
+    padding-bottom: 300px;
+}
+/* .hadding_booking{
+    position: relative;
+   background-color: var(--fad);
+    margin:  15px;
+} */
+/* 
+.hadding_booking::before{
+    content: "";
+ position: absolute;
+ background-image: linear-gradient(to center, var(--gold), var(--black));
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ z-index: -1;
+ margin: -15px;
+
+} */
+.booking_complemant{
+   max-width: 479px;
+   margin: 0 auto;
+   font-size: 22px;
+   text-align: center;
+   color: var(--whait);
+   font-family:grotex ;
+}
+
+.aircraft-card{
+    width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+    transition: all 0.8s ease-in-out;
+   
+}
+.aircraft-card:hover{
+    
+     transform: scale(1.05) translateY(-3px);
+}
+
+.aircraft-card img{
+    height: auto;
+    object-fit: cover;
+}
+
+
+.card-img-overlay{
+ padding: 0 0;
+ position: unset;
+
+}
+
+.card-content{
+    background: linear-gradient(to right top,var(--darek-gold),var(--black));
+    border-radius: 0px 0 0px 0 ;
+    border-bottom: 1px solid var(--gold);
+    border-right: 1px solid var(--gold);
+    border-left: 1px solid var(--gold);
+}
+
+.card-title{
+    font-family: serif;
+    font-size: 22px;
+}
+
+.card-text{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.btn-outline-light{
+    border-radius: 25px;
+}
+.costume_btn_1{
+    border: 1px solid var(--gold);
+    border-radius:20px ;
+    font-size: 22px;
+    font-family: alter;
+    color: var(--whait);
+    transition: all 0.8s ease-in-out;
+}
+.costume_btn_1:hover{
+     transform: scale(1.05) translateY(-3px);
+     color: var(--gold);
+}
+.costume_text_1{
+    font-size: 22px;
+    font-family:grotex ;
+    font-weight: 200;
+    color: var(--whait);
+    opacity: 100%;
+
+}
+.costume_hadding_1{
+    font-size: 30px;
+    font-family:alter ;
+    color: var(--whait);
+    opacity: 100%;
+
+}
+.costume_btn_2{
+      margin: 0 auto;
+      text-align: center;
+   
+}
+.brmari_btn{
+    
+}
+.services{
+    background-color: var(--black);
+}
+
+.costome_img_serv{
+     border-radius: 50px;
+    
+}
+.surv_row{
+     border-radius: 33px;
+     border: 0.5px solid var(--gold);
+     margin: 0 15px;
+      background: var(--grasse-dark-green);
+}
+.col60{
+    padding: 60px;
+   
+}
+.col63{
+    padding: 40px;
+
+}
+.hadding_icon_sev{
+    font-size: 18px;
+    font-family: grotex;
+    text-transform: capitalize;
+    border-top: 0.5px solid var(--gold);
+    border-bottom: 0.5px solid var(--gold);
+    margin-right: auto;
+    max-width: 154px;
+    text-align: center;
+    padding: 11px 42px;
+    border-radius: 20px;
+    color: var(--whait);
+}
+.hadding_sev{
+    font-size: 50px;
+    font-family:alter ;
+    text-transform: capitalize;
+    color: var(--whait);
+}
+.sev_complemant{
+    font-size: 25px;
+    font-family: grotex;
+    color: var(--whait);
+    padding-bottom:40px ;
+}
+.sev_btn{
+    padding: 16px 42px;
+    border: 2px solid var(--gold);
+    border-radius: 20px;
+    font-family:alter ;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: var(--whait);
+    transition: all 0.8s ease-in-out;
+}
+.sev_btn:hover{
+     transform: scale(0.5) translateY(-3px);
+     color: var(--gold);
+}
+.light_broder{
+    padding: 1px 20px;
+    max-width: 155px;
+    background:  var(--gold);
+   
+    animation: maymove4 10s infinite;
+    
+}
+@keyframes maymove4 {
+    50%{
+         box-shadow: 20px 20px 50px 2px var(--gold);
+    }
+}
+
+.light_broder_1{
+    padding: 0px 0px 0px 80px ;
+}
+.spacle_offer{
+    background-color: var(--black);
+}
+.spacle_offer h4{
+    border-bottom: 2px  solid var(--darek-gold);
+    border-left: 2px  solid var(--black);
+}
+.costome_spacle{
+  font-size: 24px;
+  font-family: grotex;
+  text-transform: capitalize;
+  padding-bottom: 2px ;
+    color: var(--whait);
+  text-align: center;
+
+ 
+}
+.table{
+    border: none;
+}
+.div_spacle{
+    text-align: center;
+    padding:40px;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: var(--whait);
+}
+.div_row_spacle{
+    border: 1px solid var(--gold);
+    border-radius: 50px;
+    margin-top: 47px;
+    margin-right:15px ;
+    margin-left: 15px;
+    transition: all 0.8s ease-in-out;
+    background: var(--grasse-dark-green);
+    
+}
+.div_row_spacle:hover{
+     transform: scale(1) translateY(-3px);
+}
+.costume_btn_2{
+    padding: 6px 8px;
+    border: 1px solid var(--gold);
+    border-radius:50px ;
+    font-size: 18px;
+    font-family: alter;
+    color: var(--whait);
+    transition: all 0.8s ease-in-out;
+    
+}
+.costume_btn_2:hover{
+    transform: scale(1.05) translateY(-3px);
+    color: var(--gold);
+    border: 0.5px solid var(--gold);
+}
+.costume_btn_3 {
+   padding: 16px 31px;
+   border: 1px solid var(--gold);
+   border-radius: 50px;
+   font-size: 24px;
+   font-family:alter ;
+   color: var(--whait);
+   transition: all 0.8s;
+}
+.costume_btn_3:hover{
+  transform: scale(1.05) translateY(-3px);
+  color: var(--gold);
+}
+.emlpye{
+    padding-top: 148px;
+    background:linear-gradient(to top,var(--sea-grass-black),var(--black));
+    padding-bottom: 135px;
+}
+
+.profile-card{
+    width:362px;
+    border-radius:25px;
+    background:linear-gradient(to bottom,#00000000,#000000);
+}
+
+.profile-img{
+    max-width:300px;
+    height:auto;
+    object-fit:cover;
+}
+
+.name{
+    font-family:alter;
+    font-size:30px;
+    text-transform: capitalize;
+}
+
+.role{
+    font-size:22px;
+    font-family:grotex ;
+    color: var(--whait);
+    text-transform: capitalize;
+    
+}
+
+.gold-line{
+    margin-top:10px;
+    position:relative;
+}
+
+.gold-line::before,
+.gold-line::after{
+    content:"";
+    height:1px;
+    width:40%;
+    background:var(--gold);
+    position:absolute;
+    top:50%;
+}
+
+.gold-line::before{
+    left:0;
+}
+
+.gold-line::after{
+    right:0;
+}
+
+.diamond{
+    width:8px;
+    height:8px;
+    background:var(--gold);
+    transform:rotate(45deg);
+    display:inline-block;
+}
+.img{
+    border-bottom: 2px solid var(--gold);
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+.contain_costome{
+    margin:  5px;
+    padding: 20px;
+    border: 2px solid var(--gold);
+    border-radius: 20px;
+}
+.predestined{
+    background-color: var(--fad);
+    padding-bottom:200px ;
+}
+.hadding_icon_sev_2{
+  max-width: 200px;
+
+}
+.col10{
+    padding-left: 40px;
+}
+.cotome_shadow_revewi{
+ 
+   max-width: 100px;
+}
+.card_comant_name{
+    font-size: 20px;
+    font-family: grotex;
+    color: var(--whait);
+    text-transform: capitalize;
+
+}
+.card_comant_commantt{
+    font-size: 18px;
+    font-family: grotex;
+    text-transform: capitalize;
+    color: var(--whait);
+    font-weight: 100;
+}
+.card_comant{
+    padding: 24px;
+    border: 1px solid var(--gold);
+    border-radius: 20px;
+    background-color: var(--sea-grass-black);
+    margin-bottom: 29px;
+    box-shadow: 0px 0px 0px 0px var(--gold);
+    transition: all 0.8s;
+}
+
+
+.star{
+  
+   animation: myanimatio 4s infinite;
+}
+@keyframes myanimatio {
+    25%{
+        box-shadow: 1px 1px 13px var(--gold);
+    }
+}
+.costome_review_commant_catrd{
+    font-size: 14px;
+}
+.col103{
+   padding: 20px;
+   background-color: var(--black);
+   border-radius: 20px;
+}
+.light_broder_2{
+    
+    padding: 1px 20px;
+    max-width: 100px;
+    background: var(--gold);
+    animation: maymove4 10s infinite;
+}
+body{
+    background-color: var(--black);
+}
+.bos_contact_min_section{
+    padding: 44px;
+    font-size: 20px;
+    color: var(--whait);
+    text-transform: capitalize;
+    font-family:alice-v ;
+    border: 0.5px solid var(--gold);
+    border-radius: 20px;
+    box-shadow:0px 0px 16px 0px var(--gold);
+    background-color: var(--sea-grass-black);
+}
+.enter_your_name{
+  background-color: var(--fad);
+  border: 1px solid var(--gold);
+}
+.costume_btn_5{
+    padding: 25px 30px;
+    font-size: 24px;
+    font-family:alter ;
+    text-transform: capitalize;
+    color: var(--whait);
+    border: 0.5px solid var(--gold);
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.hadding_video_1{
+    font-size: 40px;
+    margin-bottom: 45px;
+
+}
+.broder_hadding_contact{
+    font-size: 18px;
+    font-family: grotex;
+    text-transform: capitalize;
+    border-top: 0.5px solid var(--gold);
+    border-bottom: 0.5px solid var(--gold);
+    margin-right: auto;
+    max-width: 351px;
+    text-align: center;
+    padding: 11px 42px;
+    border-radius: 20px;
+    color: var(--whait);
+}
+.years_30{
+    font-size: 200px;
+    color: var(--gold);
+    font-family: grotex;
+    font-weight: 900;
+}
+.year{
+    font-family:alter ;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+.big_hadding_contact{
+    font-size: 30px;
+    font-family:grotex ;
+    color: var(--whait);
+    max-width: 527px;
+    margin-bottom: 78px;
+}
+li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.footer_commant{
+    max-width: 451px;
+    font-size: 20px;
+    font-family: grotex ;
+    color: var(--whait);
+    text-transform: capitalize;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+.phone_icon,.footer_botton,.enter,.tc{
+    
+    font-size: 20px;
+    font-family: grotex ;
+    color: var(--whait);
+    text-transform: capitalize;
+    transition: all 0.8s;
+}
+.phone_icon:hover,.footer_botton:hover{
+    color: var(--gold);
+}
+.costome_footer{
+    margin-bottom: 100px;
+}
+/* footer{
+padding-top: 228px;
+} */
+.costom_row{
+    padding-top: 100px;
+    border-top: 0.3px solid var(--gold);
+    margin: 0 15px;
+}
+.tc{
+    padding: 30px 0;
+    margin-top: 90px;
+    border-top: 0.3px solid var(--gold) ;
+}
+.concatct{
+    /* background-color: #000;
+    background: var(--gold) url(asset/img/background.png)  no-repeat center; */
+    padding-bottom: 228px;
+}
+.lc{
+    text-decoration: none;
+    color: var(--whait);
+    transition: all 0.5s ease-in-out;
+}
+.lc:hover{
+ color: var(--gold);
+ text-decoration: underline;
+}
+.hadding_hero{
+top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1349px) {
+    .div_spacle{
+        font-size: 18px;
+
+    }
+    .costume_btn_2{
+        font-size: 16px;
+    }
+    .hadding_hero{
+      top: 30%;
+    }
+    .hadding_hero_section{
+        font-size: 60px;
+    }
+    .hero_commant{
+            font-size: 16px;
+    }
+    .hero_btn{
+        padding: ;
+        font-size: ;
+    }
+}
+@media (max-width:1159px) {
+    .costume_hadding_1{
+        font-size: 25px;
+    }
+    .costume_text_1{
+        font-size: 18px;
+
+    }
+     .hadding_hero{
+      top: 30%;
+     
+      
+    }
+    .hadding_hero_section{
+        font-size: 50px;
+        
+    }
+    .hero_commant{
+            font-size: 16px;
+           
+    }
+}
+@media (max-width:1028px) {
+    .profile-card{
+        margin: 0 auto;
+    }
+    
+}
+@media (max-width:1028px) {
+    footer{
+        text-align: center;
+    }
+    .footer_commant {
+     margin: 0 auto;
+    }
+}
